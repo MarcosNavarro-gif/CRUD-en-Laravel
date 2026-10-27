@@ -3,9 +3,7 @@
 > **Universidad Tecnológica de Panamá**\
 > Facultad de Ingeniería de Sistemas Computacionales\
 > Campus Víctor Levi Sasso\
-> **Curso:** Desarrollo Web **Unidad:** I. Modelo Vista Controlador
-> (MVC)
-
+> **Curso:** Desarrollo Web **Unidad:** CRUD en Laravel
 ------------------------------------------------------------------------
 
 ## 1. Introducción
@@ -367,6 +365,8 @@ npm.cmd run dev
 Estos comandos se incluyen como referencia del entorno y solo son
 necesarios si se requiere instalar o compilar los recursos frontend.
 
+<img width="553" height="355" alt="image" src="https://github.com/user-attachments/assets/0a2d9272-4fcc-4761-82c4-a95a3cc211be" />
+
 ### Dificultad 2: Configuración de conexión a MySQL
 
 **Problema:** Laravel puede intentar conectarse a una base de datos
@@ -415,6 +415,9 @@ El archivo de respaldo debe generarse desde la base de datos real del
 proyecto antes de entregarlo. No se debe sustituir por un archivo SQL
 inventado.
 
+<img width="959" height="382" alt="image" src="https://github.com/user-attachments/assets/df9cc521-d9d6-4023-a11e-f179907d73d7" />
+
+
 ## 12. Referencias
 
 Verifica y completa las fuentes que realmente consultaste durante el
@@ -427,16 +430,12 @@ desarrollo. Estas referencias oficiales sirven como puntos de partida:
     https://getcomposer.org/doc/
 4.  WampServer. (s. f.). *WampServer*. https://www.wampserver.com/
 
-## 13. Fecha de entrega
-
--   **Fecha:** completar según la fecha de entrega asignada.
-
 ## 14. Autor
 
 Completa los datos del estudiante y del instructor correspondientes a
 esta entrega:
 
--   **Nombre:** completar
--   **Correo:** completar
+-   **Nombre:** Marcos Navarro
+-   **Correo:** marcos.navarro@utp.ac.pa
 -   **Curso:** Desarrollo Web
--   **Instructor del laboratorio:** completar
+-   **Instructor del laboratorio:** Irina Fong
