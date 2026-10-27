@@ -260,6 +260,8 @@ implementan con Blade.
                                       producto
   -----------------------------------------------------------------------
 
+<img width="104" height="83" alt="image" src="https://github.com/user-attachments/assets/3cacdeb6-eed5-4643-9d52-297f721c2262" />
+
 ### 7.1 Paleta de colores
 
 Se personalizó la interfaz utilizando una combinación de azul petróleo,
@@ -314,6 +316,8 @@ cierre de sesión. Las rutas del CRUD se dejaron detrás del middleware
 `auth`, por lo que un usuario no autenticado debe iniciar sesión antes
 de administrar productos.
 
+<img width="539" height="305" alt="image" src="https://github.com/user-attachments/assets/b8c44d21-418f-4ea7-983d-fb6193c86129" />
+
 ### 8.1 Compatibilidad con Laravel 13
 
 Durante el trabajo se encontró incompatibilidad con el uso antiguo de
@@ -343,10 +347,7 @@ aplicación:
 8.  Cerrar sesión e intentar acceder a `/products`; la aplicación debe
     exigir autenticación.
 
-> Registra aquí los resultados y agrega capturas de pantalla reales de
-> tu aplicación una vez que hayas comprobado cada operación. No se
-> incluyen capturas nuevas porque no fueron proporcionadas en la
-> información disponible.
+<img width="959" height="416" alt="image" src="https://github.com/user-attachments/assets/36e49704-5e57-4ef2-80da-df7d4bab98a3" />
 
 ## 10. Dificultades encontradas y soluciones
 
