@@ -145,6 +145,8 @@ campos que utiliza el modelo `Product`. No se debe ejecutar una
 migración destructiva sobre una base de datos con información que se
 quiera conservar.
 
+
+
 ## 6. Implementación del patrón MVC
 
 ### 6.1 Modelo `Product`
@@ -164,6 +166,9 @@ protected $fillable = [
 La propiedad `$fillable` permite que Laravel asigne estos campos de
 forma masiva cuando se crea o actualiza un producto mediante los datos
 validados del formulario.
+
+<img width="515" height="228" alt="image" src="https://github.com/user-attachments/assets/5966a023-7f0e-4d91-b45d-c2474ae3dbbe" />
+
 
 ### 6.2 Controlador `ProductController`
 
@@ -185,6 +190,8 @@ controlador de recursos:
 El controlador debe enviar el producto correspondiente a las vistas de
 detalle y edición, y redirigir al listado después de las operaciones de
 guardado o eliminación.
+
+<img width="621" height="403" alt="image" src="https://github.com/user-attachments/assets/167ec885-8066-4142-a366-47ade36436aa" />
 
 ### 6.3 Rutas
 
@@ -211,6 +218,8 @@ Route::resource('products', ProductController::class)
 middleware `auth` exige que el usuario inicie sesión antes de acceder a
 las rutas de productos.
 
+<img width="710" height="294" alt="image" src="https://github.com/user-attachments/assets/89665160-2368-4222-99ed-9b80606642e3" />
+
 Para verificar las rutas registradas:
 
 ``` powershell
@@ -228,6 +237,9 @@ Las rutas de recursos corresponden a estas operaciones:
   GET           `/products/{product}/edit`   Mostrar formulario de edición
   PUT/PATCH     `/products/{product}`        Actualizar producto
   DELETE        `/products/{product}`        Eliminar producto
+
+<img width="547" height="355" alt="image" src="https://github.com/user-attachments/assets/eeceb7ba-0ddb-43e5-a048-4402e7aa997a" />
+
 
 ## 7. Vistas y diseño de la interfaz
 
