@@ -80,12 +80,14 @@ php -v
 composer -V
 php artisan --version
 ```
+<img width="407" height="171" alt="image" src="https://github.com/user-attachments/assets/aa056831-4b05-4e74-8280-1b1421bfa71f" />
 
 Para iniciar el servidor de desarrollo de Laravel:
 
 ``` bat
 php artisan serve
 ```
+<img width="646" height="296" alt="image" src="https://github.com/user-attachments/assets/306c9052-4985-4da8-b07d-75041f532f9b" />
 
 Luego se abre en el navegador la dirección local que indique la
 terminal, normalmente `http://127.0.0.1:8000`.
